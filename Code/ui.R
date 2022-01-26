@@ -8,6 +8,8 @@
 #
 
 library(shiny)
+library(ggplot2)
+dataset <- diamonds
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
